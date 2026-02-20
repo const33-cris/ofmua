@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наші Парафії | OFM Ukraine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #FDFBF7; color: #2D241E; }
+        h1, h2, h3, .serif { font-family: 'Lora', serif; }
+        .parish-card:hover img { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+    <nav class="w-full bg-white border-b border-stone-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <a href="index.html" class="font-bold tracking-tighter text-xl uppercase">OFM <span class="font-light text-stone-500">Ukraine</span></a>
+            </div>
+            <div class="hidden lg:flex space-x-10 text-xs font-bold uppercase tracking-widest text-stone-600">
+                <a href="index.html" class="hover:text-[#5c4033]">Головна</a>
+                <a href="about.html" class="hover:text-[#5c4033]">Про Орден</a>
+                <a href="parishes.html" class="text-[#5c4033]">Парафії</a>
+                <a href="contacts.html" class="hover:text-[#5c4033]">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-16 bg-stone-100 border-b border-stone-200 text-center">
+        <h1 class="text-5xl italic mb-4">Наші Спільноти</h1>
+        <p class="text-stone-500 tracking-widest uppercase text-sm">Присутності Провінції св. Архангела Михаїла</p>
+    </header>
+
+    <section class="max-w-7xl mx-auto py-20 px-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <div class="parish-card bg-white border border-stone-200 overflow-hidden group">
+                <div class="h-64 overflow-hidden bg-stone-200">
+                    <img src="https://ofm.org.ua/wp-content/uploads/2018/11/zhytomyr.jpg" class="w-full h-full object-cover transition duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl mb-2">Житомир</h3>
+                    <p class="text-stone-500 text-sm mb-4">Семінарія та Курія Провінції</p>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-6">Парафія св. Йоана з Дуклі — духовний центр нашої провінції.</p>
+                    <a href="#" class="text-xs font-bold uppercase tracking-widest border-b-2 border-[#5c4033] pb-1">Детальніше</a>
+                </div>
+            </div>
+
+            <div class="parish-card bg-white border border-stone-200 overflow-hidden group">
+                <div class="h-64 overflow-hidden bg-stone-200">
+                    <img src="https://ofm.org.ua/wp-content/uploads/2018/11/shargorod.jpg" class="w-full h-full object-cover transition duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl mb-2">Шаргород</h3>
+                    <p class="text-stone-500 text-sm mb-4">Санктуарій Страстей Господніх</p>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-6">Місце паломництва, де знаходиться велична Хресна Дорога.</p>
+                    <a href="#" class="text-xs font-bold uppercase tracking-widest border-b-2 border-[#5c4033] pb-1">Детальніше</a>
+                </div>
+            </div>
+
+            <div class="parish-card bg-white border border-stone-200 overflow-hidden group">
+                <div class="h-64 overflow-hidden bg-stone-200">
+                    <img src="https://ofm.org.ua/wp-content/uploads/2018/11/konotop.jpg" class="w-full h-full object-cover transition duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl mb-2">Конотоп</h3>
+                    <p class="text-stone-500 text-sm mb-4">Парафія Матері Божої Фатімської</p>
+                    <p class="text-stone-600 text-sm leading-relaxed mb-6">Наша присутність на сході України, активна соціальна праця.</p>
+                    <a href="#" class="text-xs font-bold uppercase tracking-widest border-b-2 border-[#5c4033] pb-1">Детальніше</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-500 py-10 text-center text-xs uppercase tracking-widest">
+        <p>© 2026 Орден Братів Менших в Україні</p>
+    </footer>
+
+</body>
+</html>
